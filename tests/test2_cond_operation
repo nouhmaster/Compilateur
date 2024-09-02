@@ -1,0 +1,90 @@
+int test()
+{
+    int x;
+    int y;
+    x = 20;
+    y = 10;
+
+    if(x  < y){//gere plusieur operation dans un if
+        print_str(" x plus petit que y\n");
+        
+    }
+    else
+    {
+       print_str(" x plus grand que y\n");
+       
+    }
+    if(x > y){
+        print_str(" x plus grand que y\n");
+        
+    }
+    else
+    {
+       print_str(" x plus petit que y\n");
+       
+    }
+    if(x <= y){
+        print_str(" x plus petit ou egal à y\n");
+        
+    }
+    else
+    {
+       print_str(" x plus grand ou à y\n");
+       
+    }
+    if(x > y){
+        print_str(" x plus grand ou egal à y\n");
+        
+    }
+    else
+    {
+       print_str(" x plus petit ou égal à y\n");
+       
+    }
+     if(x >= y){
+        print_str(" x plus grand ou egal à y\n");
+        
+    }
+    else
+    {
+       print_str(" x plus petit ou égal à y\n");
+       
+    }
+    if(x == y){
+        print_str(" x egal à y\n");
+        
+    }
+    else
+    {
+       print_str(" x pas égal à y\n");
+       
+    }
+    if(x != y){
+        print_str(" x different de y\n");
+        
+    }
+    else
+    {
+       print_str(" x est egal à y\n");  
+    }
+    if(y == 10 || x == 10)
+    {
+        print_str("y est egal a 10 ou x est egal 10\n");
+    }
+    else
+    {
+        print_str("aucun des deux n'es egal a 10\n");
+    }
+     if(y == 10 && x == 10)
+    {
+        print_str("y est egal a 10 et x est égal 10\n");
+    }
+    else
+    {
+        print_str("aucun des deux ou un des deux n'es egal a 10\n");
+    }
+}
+
+void main(){
+    test();//appel d'une fonction exterieur au main
+}

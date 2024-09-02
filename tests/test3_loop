@@ -1,0 +1,11 @@
+int test(){
+
+    
+    while(10 > 0 ){
+        print_str("tourne en boucle car 10 > 0\n");
+    }
+}
+void main(){
+    test();
+}
+/*pas pue gerer les changement de valeur dans une variable afin d'incrementer part exemple*/

@@ -1,0 +1,9 @@
+void main(){
+	int a;
+	a = 2;
+	str string;
+	string = "Hello ! \n";
+	print_int(a);
+	print_str("\n");
+	print_str(string);
+}
